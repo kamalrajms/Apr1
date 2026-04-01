@@ -1,12 +1,33 @@
 import React from "react";
 import Greeting from "./Greeting";
+import DeclearingProp from "./DeclearingProp";
+import DestructuringProps from "./DestructuringProps";
 
 export default function App() {
+  const name = "hari";
+  const age = "55";
+  const phone = "5466599";
+
+  const name2="kumar"
+  const age2="44"
+  const gender2="male"
+  const phone2="449498498"
+
+  const name3="raj kumar "
+  const age3="77"
+  const phone3="48999494949498498"
+
+  const city = "chennai";
+
   return (
     <>
       hello
+      <DestructuringProps name={name} age={age} phone={phone} />
+      <DestructuringProps name={name2} gender={gender2}  age={age2} phone={phone2} />
+      <DestructuringProps name={name3} age={age3} phone={phone3} />
+      <DeclearingProp name={name} city={city} />
       <Greeting />
-      <h2>react class</h2>
+      <h2>react class - {name}</h2>
     </>
   );
 }

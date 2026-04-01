@@ -11,5 +11,6 @@ export default function Greeting() {
         dolorem nam!
       </p>
     </div>
+   
   );
 }
