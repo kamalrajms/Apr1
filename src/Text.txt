@@ -6,3 +6,32 @@
 
             Declearing Props
             Destructuring Props
+
+6/4/2026
+
+## conditional rendering 
+
+    conditional  rendering means showing or hiding parts of UI based on some conditio (state,props...)
+
+        Ternary operator {condition?true:false}
+        logical operator &&  ||  !
+
+## list rendering 
+
+    Rendering multiple item dynamically using .map()
+
+    ary=[1,2,3,4,5]
+
+    ary.map((name)=>(
+        name*2
+    ))
+
+    new ary=[2,4,6,8,10]
+
+## styleing in react
+
+        global styleing --- index.css and app.css is called as global styleing file [no need to import]
+        External styleing --- to create a seperate css file
+        Module styleing--- we need to same file name as [filename.module.css]
+        inline styleing--- style in a {{}}
+        object styleing--- we need to declear an styleing property in object way

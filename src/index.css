@@ -1,0 +1,16 @@
+.Greeting {
+  background-color: aqua;
+  color: red;
+  padding: 20px;
+}
+.Declearing {
+  background-color: black;
+  color: aliceblue;
+  padding: 20px;
+}
+.Condition {
+  margin: 200px;
+}
+.list {
+  margin: 200px;
+}
