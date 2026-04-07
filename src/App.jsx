@@ -4,6 +4,9 @@ import DeclearingProp from "./DeclearingProp";
 import DestructuringProps from "./DestructuringProps";
 import ConditionalRender from "./Component/ConditionalRender";
 import ListRendering from "./Component/ListRendering";
+import UseStateHook from "./Component/UseStateHook";
+import Theme from "./Component/Theme";
+import Fields from "./Component/Fields";
 
 export default function App() {
   const name = "hari";
@@ -23,6 +26,9 @@ export default function App() {
 
   return (
     <>
+      <Fields />
+      <Theme />
+      <UseStateHook />
       <ListRendering />
       <ConditionalRender />
       hello

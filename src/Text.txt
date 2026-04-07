@@ -1,3 +1,37 @@
+30/3/2026
+
+## react intro
+
+    What is React?
+
+    1) React is a JavaScript library (not a framework) developed by Facebook (Meta) for building user interfaces (UIs), especially Single Page Applications (SPAs).
+
+    2) It helps developers build reusable UI components that update efficiently when data changes.
+
+    Instead of reloading a whole webpage when something changes, React updates only the parts of the UI that need to change.
+
+    -------
+    Why do we need React?
+
+	It makes UI development faster, cleaner, and more efficient.
+
+	Provides a better user experience with smooth updates without page reloads.
+
+
+    ## must need to install node.js
+ 
+## procedure to initiate project
+
+    step 1 : npm create vite@latest [project_name]
+    step 2 : select react
+    step 3 : select javascript+swc
+    step 4 : npm install                // install node module packages
+    step 5 : npm run dev 
+
+    if you want to re-run your project mean 
+        npm run dev
+
+
 1/4/2026
 
 ## props
@@ -35,3 +69,34 @@
         Module styleing--- we need to same file name as [filename.module.css]
         inline styleing--- style in a {{}}
         object styleing--- we need to declear an styleing property in object way
+
+## type of domain
+
+    .com-- commercial
+    .org--- organization
+    .net-- Network
+    .edu-- education
+    .gov-- government
+    .mil-- military
+    .co-- company
+    .info-- information
+    .biz-- business
+    .in--india
+
+7/4/2026
+
+## useState() & forms
+
+    useState is a React hook that allow you to add state (datathat can change over time)to a
+    functional component.
+
+    Normailly, in js function ,variables disappear the function runs, but with useState ,
+    react remamber values between re-render.
+
+    syntax:
+
+        const [state,setState]=useState(initialValue)
+
+        state--  the current value of the state variables
+        setState-- a function that update the state
+        initialValue-- the Starting value of the state.
