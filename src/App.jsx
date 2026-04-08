@@ -7,6 +7,8 @@ import ListRendering from "./Component/ListRendering";
 import UseStateHook from "./Component/UseStateHook";
 import Theme from "./Component/Theme";
 import Fields from "./Component/Fields";
+import RegForm from "./Component/RegForm";
+import ConditionalForm from "./Component/ConditionalForm";
 
 export default function App() {
   const name = "hari";
@@ -26,6 +28,8 @@ export default function App() {
 
   return (
     <>
+      <ConditionalForm />
+      <RegForm />
       <Fields />
       <Theme />
       <UseStateHook />

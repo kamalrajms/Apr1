@@ -97,6 +97,6 @@
 
         const [state,setState]=useState(initialValue)
 
-        state--  the current value of the state variables
-        setState-- a function that update the state
+        state--  the current value of the state variables.
+        setState-- a function that update the state.
         initialValue-- the Starting value of the state.
