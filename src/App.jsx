@@ -9,6 +9,9 @@ import Theme from "./Component/Theme";
 import Fields from "./Component/Fields";
 import RegForm from "./Component/RegForm";
 import ConditionalForm from "./Component/ConditionalForm";
+import UseEffectHook from "./Component/UseEffectHook";
+import Timer from "./Component/Timer";
+import Watch from "./Component/Watch";
 
 export default function App() {
   const name = "hari";
@@ -28,6 +31,9 @@ export default function App() {
 
   return (
     <>
+      <Watch />
+      <Timer />
+      <UseEffectHook />
       <ConditionalForm />
       <RegForm />
       <Fields />

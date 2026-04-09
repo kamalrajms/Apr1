@@ -47,7 +47,7 @@ export default function RegForm() {
         onChange={handleChange}
         placeholder="Enter email"
       />
-      <input
+      <input 
         type="number"
         value={formData.age}
         name="age"
@@ -57,3 +57,4 @@ export default function RegForm() {
     </div>
   );
 }
+
