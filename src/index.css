@@ -14,3 +14,18 @@
 .list {
   margin: 200px;
 }
+
+/* useref */
+.image-cointainer {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #333;
+  background-color: aqua;
+  cursor: pointer;
+}
+.org-img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #333;
+  cursor: pointer;
+}

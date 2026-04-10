@@ -12,6 +12,8 @@ import ConditionalForm from "./Component/ConditionalForm";
 import UseEffectHook from "./Component/UseEffectHook";
 import Timer from "./Component/Timer";
 import Watch from "./Component/Watch";
+import UseEffectAPI from "./Component/UseEffectAPI";
+import UseRefHook from "./Component/UseRefHook";
 
 export default function App() {
   const name = "hari";
@@ -31,6 +33,8 @@ export default function App() {
 
   return (
     <>
+      <UseRefHook />
+      <UseEffectAPI />
       <Watch />
       <Timer />
       <UseEffectHook />

@@ -121,3 +121,17 @@
             },[dependency 1,dependency 2,dependency 3....])
 
             [] --- if that dependency is empty means that useEffect will be run only once at begining
+
+
+10/4/2026
+
+## useRef()
+
+    useRef is a react hook that gives you a box (.current) you can store anything in
+    like : num,string,object,function,even dom element.
+
+    That value persists between renders
+    
+    Updating it does not causes your component to re-render.
+    
+    {current:value}
