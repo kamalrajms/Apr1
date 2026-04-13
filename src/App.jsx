@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext, createContext } from "react";
 import Greeting from "./Greeting";
 import DeclearingProp from "./DeclearingProp";
 import DestructuringProps from "./DestructuringProps";
@@ -14,6 +14,10 @@ import Timer from "./Component/Timer";
 import Watch from "./Component/Watch";
 import UseEffectAPI from "./Component/UseEffectAPI";
 import UseRefHook from "./Component/UseRefHook";
+import First from "./Context/First";
+import ContextForm from "./Context/ContextForm";
+
+export const Pass = createContext();
 
 export default function App() {
   const name = "hari";
@@ -33,6 +37,15 @@ export default function App() {
 
   return (
     <>
+      <div style={{ border: "2px solid  #333", padding: "20px" }}>
+        <ContextForm />
+      </div>
+      <div style={{ border: "2px solid  #333", padding: "20px" }}>
+        <h2>App component--{name}</h2>
+        <Pass.Provider value={name}>
+          <First />
+        </Pass.Provider>
+      </div>
       <UseRefHook />
       <UseEffectAPI />
       <Watch />

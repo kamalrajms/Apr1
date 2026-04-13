@@ -135,3 +135,29 @@
     Updating it does not causes your component to re-render.
     
     {current:value}
+
+
+## sub-domain
+
+    stackly.com--- main domain
+
+    blog.stackly.com---subdomain
+    helpcenter.stackly.com---subdomain
+
+13/4/2026
+
+## useContext()
+
+    Passing data from a parent component down to deeply nested child component is annoying.
+
+    Normally,you'd have to pass props manually through each level (called props drilling).
+
+    useContext lets let you skip all the middle component and share data directly.
+
+
+            Create a context
+            Provide a value
+            Consume the value
+
+
+
