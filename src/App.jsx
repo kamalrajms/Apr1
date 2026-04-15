@@ -1,4 +1,4 @@
-import React, { useContext, createContext } from "react";
+import React, { useContext, createContext, useState } from "react";
 import Greeting from "./Greeting";
 import DeclearingProp from "./DeclearingProp";
 import DestructuringProps from "./DestructuringProps";
@@ -16,6 +16,7 @@ import UseEffectAPI from "./Component/UseEffectAPI";
 import UseRefHook from "./Component/UseRefHook";
 import First from "./Context/First";
 import ContextForm from "./Context/ContextForm";
+import UseReducerHook from "./Component/UseReducerHook";
 
 export const Pass = createContext();
 
@@ -34,11 +35,17 @@ export default function App() {
   const phone3 = "48999494949498498";
 
   const city = "chennai";
+  const [theme, setTheme] = useState("light");
+  const data = { name: "react" };
+  console.log(theme);
 
   return (
     <>
+    <UseReducerHook/>
       <div style={{ border: "2px solid  #333", padding: "20px" }}>
-        <ContextForm />
+        <Pass.Provider value={{ theme, setTheme, data }}>
+          <ContextForm />
+        </Pass.Provider>
       </div>
       <div style={{ border: "2px solid  #333", padding: "20px" }}>
         <h2>App component--{name}</h2>

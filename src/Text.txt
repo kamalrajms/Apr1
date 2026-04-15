@@ -159,5 +159,18 @@
             Provide a value
             Consume the value
 
+15/4/2026
+
+## useReducer ()
+
+    syntax:
+    
+        const[state,dispatch]=useReducer(reducerFunction,initialState)
+
+        state---current state (like useState value).
+        dispatch(action)----a function to tell the reducer  what to do.
+        reducerFunction(state,action)--- the logi thate returns a  new state.
+        initialState----- Starting values.
+
 
 

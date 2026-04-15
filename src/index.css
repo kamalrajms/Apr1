@@ -29,3 +29,15 @@
   border: 2px solid #333;
   cursor: pointer;
 }
+
+/* usecontext */
+.light {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+}
+.black {
+  background-color: #333;
+  color: #ffffff;
+  padding: 20px;
+}
