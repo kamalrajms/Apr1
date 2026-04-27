@@ -286,7 +286,7 @@
     create data---- Post
     Read data------ Get
     update data---- Put
-    Delete data----Delete
+    Delete data---- Delete
 
 
                                 http request
