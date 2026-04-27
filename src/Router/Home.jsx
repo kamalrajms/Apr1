@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import UseParamHook from "../Component/UseParamHook";
 import { useNavigate } from "react-router-dom";
+import CustomHook from "../Component/CustomHook";
 
 export default function Home() {
   const page = useNavigate();
@@ -17,6 +18,7 @@ export default function Home() {
   return (
     <div>
       <h2>Home component</h2>
+      <CustomHook />
       <h2>Count:{count}</h2>
       <button onClick={() => setCount(count + 1)}>Increment</button>
       <button onClick={() => page("/Service")}>move to service</button>
